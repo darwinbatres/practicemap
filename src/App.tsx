@@ -8,6 +8,7 @@ import { LiveMarkdownDrawer } from './components/drawer/LiveMarkdownDrawer';
 import { QuickAssignModal } from './components/modals/QuickAssignModal';
 import { CatalogModal } from './components/modals/CatalogModal';
 import { ConfirmDialogModal } from './components/modals/ConfirmDialogModal';
+import { AuthorSignatureBadge } from './components/hud/AuthorSignatureBadge';
 
 export function App() {
   const hydrateFromStorage = useTopologyStore((s) => s.hydrateFromStorage);
@@ -122,6 +123,7 @@ export function App() {
         <QuickAssignModal />
         <CatalogModal />
         <ConfirmDialogModal />
+        <AuthorSignatureBadge />
       </ReactFlowProvider>
     </div>
   );

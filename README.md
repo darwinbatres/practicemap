@@ -68,3 +68,9 @@ This project is pre-configured with relative asset paths (`base: './'`) and code
   - **Build Command**: `npm run build`
   - **Output Directory**: `dist`
   - **Node.js Version**: `22.x`
+
+---
+
+## Author
+
+Created by **Darwin Batres** ([@darwinbatres](https://x.com/darwinbatres)).
